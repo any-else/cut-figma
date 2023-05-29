@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Poppins', sans-serif;;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+.container header {
+  /* layout flex */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+
+  /* Tổng thể của header */
+  background-color: #000000;
+  height: 120px;
+  color: white;
+}
+
+header .header-logo {
+  /* margin-top: ; */
+  margin-left: 271px;
+}
+
+.header-logo h1 {
+  margin: 0 11px 3px 11px;
+
+  color: #6D95FC;
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 600;
+  height: 66px;
+}
+
+.header-logo p {
+  /* css text */
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+header .header-menu {
+  margin-right: 230px;
+}
+
+.header-menu .menu-item {
+ display: flex;
+ list-style: none;
+ column-gap: 53px;
+}
+
+.header-menu .menu-item li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu .menu-item li:last-child {
+  margin-left: 13px;
+}
+
+.header-menu .menu-item li:last-child img{
+  color: #6D95FC;
+  width: 29px;
+  height: 29px;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+main .main-banner {
+  height: 892px;
+
+  background-image: url("./image/beautiful-woman-with-big-jewel\ 1.png");
+  background-position-x: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  position: relative;
+}
+
+ .banner-content {
+  position: absolute;
+  color: white;
+  width: 819px;
+  top: 185px;
+  left: 271px;
+}
+.banner-content p:nth-child(1) {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 31px;
+
+  color:#6D95FC;
+}
+.banner-content h2 {
+  font-size: 80px;
+  line-height: 89px;
+  color: #FFFFFF;
+  font-weight: 700;
+
+  margin-top: 40px;
+}
+.banner-content h2 span {
+  color: #6D95FC;
+
+}
+
+.banner-content .banner-line {
+  width: 144px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #6D95FC;
+  
+    margin: 43px 0;
+}
+
+.banner-content .desc {
+  font-size: 21px;
+  font-weight: 300;
+  color: white;
+  line-height: 31px;
+}
+.banner-content .btn{
+  display: inline-block;
+  padding: 10px 16px;
+  border: 3px solid #6D95FC;
+  border-radius: 5px;
+  margin-top: 43px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%; /* ses */
+  height: 100%;
+  background: linear-gradient(268.78deg, rgba(109, 149, 252, 0.67) -53.1%, rgba(109, 149, 252, 0) 30.41%);
+}
